@@ -85,6 +85,12 @@ public class Parse
       }
       else if (isVar(token))               // <statement> ::= <var> := <expr>
       {
+         String var = token;
+            token = getToken(); // Expecting '='
+            if (!token.equals("="))
+                reportError(token);
+            val = parseExpr(getToken());
+            storeVar(var, val);
          
       }
       else
