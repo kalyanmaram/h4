@@ -1,0 +1,22 @@
+2     <- our loop
+2
+2
+5
+2
+5
+8
+2
+5
+8
+2     <- start of: are inner and outer back to 2
+2
+1     <- this one is all we get from the 5 if statements
+1     <- here we start the if/else stuff
+20
+100
+300
+200
+1000  <- and our if if/else (switch) sequences
+2000
+3000
+3
